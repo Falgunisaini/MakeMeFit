@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Make me Fit!</string>
+    <string name="med">Meditate</string>
+    <string name="title">Make me fit! - your personal Fitness Manager</string>
+    <string name="bg">background</string>
+    <string name="wait">Please wait for a moment...</string>
+    <string name="login">Login</string>
+    <string name="reg">Register</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="proceed">Proceed</string>
+    <string name="enteremail">Enter your email address</string>
+    <string name="loadingque">Loading question...</string>
+    <string name="resetpass">Reset Password</string>
+    <string name="changepass">Change Password</string>
+    <string name="currpassstring">Current Password</string>
+    <string name="newpass">New Password</string>
+    <string name="reenter">Re-enter new password</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="welcome">HELLO!  Welcome to Make Me Fit!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="prompt_name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="fem">Female</string>
+    <string name="male">Male</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="heightcm">Height (in cm)</string>
+    <string name="weightkg">Weight (in kg)</string>
+    <string name="ageyrs">Age</string>
+    <string name="b4">BEFORE</string>
+    <string name="bmi">\"BMI: \"</string>
+    <string name="bmi_display">"BMI: %s"</string>
+    <string name="cals">"Calories Burnt: %s"</string>
+    <string name="profile_display">"%s's Profile"</string>
+    <string name="cg_display">"%s/%s"</string>
+    <string name="sleep">Sleep Tracker</string>
+    <string name="water">Water intake</string>
+    <string name="update">Update Profile</string>
+    <string name="updateonly">Update</string>
+    <string name="loading">Loading..</string>
+    <string name="randomid">"https://make-me-fit-a3954.firebaseio.com/user/%s"</string>
+    <string name="track_waterintake">Track your daily water intake</string>
+    <string name="tracksleep">Track your sleeping hours</string>
+    <string name="one_glass">1 glass= 300mL</string>
+    <string name="glasses">0</string>
+    <string name="sub">Subtract</string>
+    <string name="addition">Add</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="hrs_sleep_recommended">8hrs sleep recommended</string>
+    <string name="history">History</string>
+    <string name="stephistory">Step History</string>
+    <string name="waterhistory">Water History</string>
+    <string name="sleephistory">Sleep History</string>
+    <string name="keyvalue">"%s     %s"</string>
+    <string name="Zerotimer">"00:00:00"</string>
+    <string name="duration">"Choose Duration"</string>
+    <string name="five">"Five"</string>
+    <string name="ten">"Ten"</string>
+    <string name="fif">"Fifteen"</string>
+    <string name="timertext">"Remaining: %d %s"</string>
+
+    <string name="totalsteps">"Total steps: %d "</string>
+    <string name="higheststeps">"Highest no. of steps taken were %d on %s"</string>
+    <string name="averagesteps">"Daily Average: %d" </string>
+    <string name="averagestepsweekly">"Weekly average: %d"</string>
+
+    <string name="averagesleepweekly">"Weekly average: %d"</string>
+    <string name="totalsleepintake">"Total sleep intake: %d"</string>
+    <string name="averagesleep">"Daily average: %d"</string>
+    <string name="totalwaterintake">"Total water intake: %d"</string>
+    <string name="maxwaterintake">"Highest no. of glasses of water taken were %d on %s"</string>
+    <string name="averagewater">"Daily average: %d"</string>
+    <string name="averagewaterweekly">"Weekly average: %d"</string>
+    <string name="maxsleepintake">"Highest sleeping hours taken were %d on %s"</string>
+
+    <string name="wywtd">What you want to do?</string>
+    <string name="sprofile">Profile and Stepcount</string>
+    <string name="ssleep">Sleep Tracker</string>
+    <string name="swater">Water Intake</string>
+    <string name="shistory">Check History</string>
+    <string name="sstats">Check Statistics</string>
+    <string name="supdate">Update Profile</string>
+    <string name="logout">Logout</string>
+
+</resources>

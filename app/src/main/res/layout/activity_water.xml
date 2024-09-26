@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/waterimg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/lightfish"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:visibility="visible"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintEnd_toStartOf="parent"
+    app:layout_constraintStart_toEndOf="parent"
+    tools:context=".WaterActivity"
+    tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="416dp"
+            android:layout_height="127dp"
+            android:background="#ABFDF9F9"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:text="@string/track_waterintake"
+            android:textAllCaps="false"
+            android:textColor="#012739"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243"
+            android:paddingStart="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="261dp"
+            android:layout_height="172dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/water"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.242"
+            app:srcCompat="@drawable/waterpouring" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="89dp"
+            android:layout_height="48dp"
+            android:background="#ADFFFFFF"
+            android:text="@string/plus"
+            android:textColor="#100F0F"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_sub"
+            app:layout_constraintHorizontal_bias="0.685"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.635" />
+
+        <Button
+            android:id="@+id/button_sub"
+            android:layout_width="89dp"
+            android:layout_height="48dp"
+            android:background="#ADFFFFFF"
+            android:text="@string/minus"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.722"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.63" />
+
+        <TextView
+            android:id="@+id/numberofglasses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:fontFamily="@font/amiri"
+            android:hint="@string/glasses"
+            android:inputType="none"
+            android:shadowColor="#050505"
+            android:textColor="#000000"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_sub"
+            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintStart_toEndOf="@+id/button_add"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <TextView
+            android:id="@+id/glassrec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:fontFamily="sans-serif-black"
+            android:hint="@string/one_glass"
+            android:inputType="none"
+            android:text="@string/one_glass"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.741" />
+
+        <ImageView
+            android:id="@+id/tick"
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/glassrec"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.761"
+            app:srcCompat="@drawable/greentickclearbg"
+            android:contentDescription="TODO" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

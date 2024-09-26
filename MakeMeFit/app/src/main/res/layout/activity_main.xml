@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grasskid"
+    android:drawingCacheQuality="low"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="422dp"
+        android:layout_height="190dp"
+        android:fontFamily="@font/baumans"
+        android:gravity="bottom|center"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:paddingRight="20dp"
+        android:text="@string/wait"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F8FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        app:autoSizeTextType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="391dp"
+        android:layout_height="328dp"
+        android:alpha="1"
+        android:clickable="false"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle"
+        android:max="10"
+        android:paddingTop="250dp"
+        android:progress="@android:integer/config_shortAnimTime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

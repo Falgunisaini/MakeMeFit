@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueorgigami"
+    tools:context=".WaterHistoryActivity">
+
+  <TextView
+      android:id="@+id/list_water"
+      android:layout_width="306dp"
+      android:layout_height="473dp"
+      android:layout_margin="50dp"
+      android:layout_marginBottom="44dp"
+      android:background="#52FFFFFF"
+      android:fadeScrollbars="true"
+      android:isScrollContainer="true"
+      android:lineSpacingExtra="10sp"
+      android:padding="50dp"
+      android:scrollbars="vertical"
+      android:textColor="#100F0F"
+      android:textSize="18sp"
+      android:verticalScrollbarPosition="right"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.551"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textView14"
+      style="@android:style/Widget.Holo.TextView.SpinnerItem"
+      android:layout_width="288dp"
+      android:layout_height="108dp"
+      android:fontFamily="@font/amiri"
+      android:text="Date - No. of water glasses"
+      android:textColor="#100F0F"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/list_water"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.579" />
+
+  <ScrollView
+      android:id="@+id/scrollviewwater"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:layout_editor_absoluteX="0dp"
+      tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+  </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

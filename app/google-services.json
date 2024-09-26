@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "847383218199",
+    "firebase_url": "https://make-me-fit-a3954.firebaseio.com",
+    "project_id": "make-me-fit-a3954",
+    "storage_bucket": "make-me-fit-a3954.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847383218199:android:d65618da4be1fcbf467452",
+        "android_client_info": {
+          "package_name": "com.example.first"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847383218199-jblkffiee581tobdcjpj10192j9jdc9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.first",
+            "certificate_hash": "314e5f12a0d0c48953fe6fbe13a4531e786d4c27"
+          }
+        },
+        {
+          "client_id": "847383218199-krqfbnm4rv21p2a9vlao6tcelvdnb2g9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY3foTzUnnfvwgxKx9yL18VM5N6pmSngI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847383218199-krqfbnm4rv21p2a9vlao6tcelvdnb2g9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

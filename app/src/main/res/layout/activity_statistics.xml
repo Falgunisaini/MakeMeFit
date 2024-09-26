@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_white_pink_blue"
+    tools:context=".Statistics">
+
+  <ScrollView
+      android:layout_width="279dp"
+      android:layout_height="457dp"
+      android:padding="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/textView18"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="30dp"
+          android:fontFamily="@font/amiri"
+          android:paddingLeft="30dp"
+          android:text="  Statistics"
+          android:textColor="#201F20"
+          android:textSize="35sp"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/stepstatsclick"
+          style="@android:style/Widget.Holo.Light.Button.Toggle"
+          android:layout_width="192dp"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:text="Step Statistics"
+          android:textSize="14sp" />
+
+      <Button
+          android:id="@+id/Sleepstatsclick"
+          style="@android:style/Widget.Holo.Light.Button.Toggle"
+          android:layout_width="192dp"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:text="Sleep Statistics"
+          android:textSize="14sp" />
+
+      <Button
+          android:id="@+id/waterstatsclick"
+          style="@android:style/Widget.Holo.Light.Button.Toggle"
+          android:layout_width="192dp"
+          android:layout_height="wrap_content"
+          android:layout_margin="20dp"
+          android:text="Water Statistics"
+          android:textSize="14sp" />
+    </LinearLayout>
+  </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
